@@ -16,7 +16,7 @@ h11==0.14.0
 idna==3.4
 importlib-metadata==6.1.0
 iniconfig==2.0.0
-ipykernel==6.22.0
+ipykernel==6.23.1
 ipython==8.11.0
 jedi==0.18.2
 jupyter_client==8.1.0
@@ -26,6 +26,7 @@ nest-asyncio==1.5.6
 outcome==1.2.0
 packaging==23.0
 parso==0.8.3
+pi==0.1.2
 pickleshare==0.7.5
 platformdirs==3.1.1
 pluggy==1.0.0
