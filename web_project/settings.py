@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-&q!p+*qr5#!r7(t9g6^srpg4j)ufzqjsd6d2_2107h#2-pyrzr
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['.vercel.app']
 
 
 # Application definition
@@ -39,7 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'ImageVerification',
-    
+
 ]
 
 MIDDLEWARE = [
