@@ -15,3 +15,4 @@ six==1.16.0
 sqlparse==0.4.3
 tzdata==2023.2
 urllib3==1.26.15
+gunicorn==20.1.0
