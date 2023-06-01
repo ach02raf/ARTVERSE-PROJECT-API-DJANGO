@@ -22,8 +22,7 @@ def home(request):
             image1_array = np.frombuffer(image1_bytes, dtype=np.uint8)
             image1 = cv2.imdecode(image1_array, cv2.IMREAD_COLOR)
 
-            response = requests.get(
-                'https://artverse-project-api-nodejs.onrender.com/Posts/getImages')
+            response = requests.get('http://localhost:5000/Posts/getImages')
             images = response.json()
 
             imagesTab = []
@@ -54,8 +53,7 @@ def home(request):
 
         return HttpResponse(exist)
     if request.method == 'GET':
-        response = requests.get(
-            'https://artverse-project-api-nodejs.onrender.com/Posts/getImages')
+        response = requests.get('http://localhost:5000/Posts/getImages')
         images = response.json()
         imagesTab = []
         for i in range(len(images)):
